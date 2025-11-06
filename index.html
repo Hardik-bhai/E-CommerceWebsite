@@ -20,16 +20,17 @@
 
 <!-- Google tag (gtag.js) -->
 <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BB166ZPWVP"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  // force real-time tracking visibility
+  // FORCE Real-time + DebugView tracking
   gtag('config', 'G-BB166ZPWVP', { debug_mode: true });
 
-  // send page view manually
+  // Send real page view event
   gtag('event', 'page_view', {
     page_title: document.title,
     page_location: window.location.href
